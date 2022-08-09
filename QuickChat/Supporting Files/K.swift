@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+struct K {
+    struct Segue {
+        static let signUpToHome = "signUpToHome"
+        static let signInToHome = "signInToHome"
+    }
+
+}

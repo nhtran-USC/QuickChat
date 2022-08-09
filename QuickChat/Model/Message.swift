@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+struct Message {
+    let sender:String
+    let message:String
+    
+    init(sender:String, message:String) {
+        self.sender = sender
+        self.message = message
+    }
+}
